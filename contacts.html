@@ -21,23 +21,23 @@
 
     <h3>Форма зворотнього зв'язку</h3>
 
-    <form method="post" target="_self">
+    <form action="mailto:ogure.blin@gmail.com" method="post" enctype="text/plain">
         <p>
-            <label>Ваше ім'я:</label>
-            <input type="text">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" name="yourName" value="">
         </p>
         <p>
-            <label>E-mail адреса:</label>
-            <input type="email">
+            <label for="email">Ваш Email:</label>
+            <input type="email" name="yourEmail" value="">
         </p>
         <p>
-            <label>Текст повідомлення: </label>
+            <label for="message">Ваше повідомлення:</label>
             <br>
-            <textarea style="width:50%;height:100px"></textarea>
+            <textarea name="yourMessage" rows="15" cols="30"> </textarea>
         </p>
-
-        <button type="submit" name="submit" value="send">Надіслати</button>
+        <input type="submit" value="Відправити">
     </form>
+
 
     <hr>
     <a href="index.html">
