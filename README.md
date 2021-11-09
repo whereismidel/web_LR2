@@ -1,2 +1,2 @@
-# web_LR2.github.io
+# https://whereismidel.github.io/web_LR2/
 Хостинг
